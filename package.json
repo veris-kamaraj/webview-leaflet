@@ -1,0 +1,47 @@
+{
+  "name": "react-native-expoless-webview-leaflet",
+  "version": "5.1.5",
+  "description": "A React Native component that uses a React Native WebView to provide a Leaflet map.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matmedev/react-native-webview-leaflet.git"
+  },
+  "keywords": [
+    "react-native",
+    "leaflet",
+    "webview"
+  ],
+  "main": "index.ts",
+  "typings": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "leaflet": "^1.7.1",
+    "lodash.isequal": "^4.5.0",
+    "react-dom": "^17.0.1",
+    "react-leaflet": "^3.0.5"
+   
+  },
+  "peerDependencies": {
+    "react": "^16.9.0",
+    "react-leaflet": "^2.6.1",
+    "react-native": "^0.61.2",
+    "react-native-webview": "^13.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-react": "^7.12.10",
+    "@types/node": "^14.14.16",
+    "@types/react-leaflet": "^2.5.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "gulp": "4.0.2",
+    "gulp-run": "^1.7.1",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-inliner": "^1.0.14",
+    "typescript": "^4.1.3"
+  }
+}
