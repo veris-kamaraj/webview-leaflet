@@ -11,6 +11,7 @@ import {
   OwnPositionMarker,
   OWN_POSTION_MARKER_ID
 } from "./models";
+import {Platform} from 'react-native'
 import { ActivityOverlay } from "./ActivityOverlay";
 import { LatLng } from "react-leaflet";
 import isEqual from "lodash.isequal";
